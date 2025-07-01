@@ -1,5 +1,5 @@
 {
-    "name": "ezsystems/ezplatform-design-engine",
+    "name": "se7enxweb/ezplatform-design-engine",
     "description": "Design fallback mechanism for eZ Platform",
     "license": "MIT",
     "type": "ezplatform-bundle",
@@ -14,7 +14,7 @@
         }
     ],
     "require": {
-        "ezsystems/ezpublish-kernel": "^6.0.0|^7.0",
+        "se7enxweb/ezpublish-kernel": "^6.0.0|^7.0",
         "twig/twig": "^1.27|^2.0",
         "symfony/symfony": "^2.8.25|^3.1.6|^3.2.12|^3.3.5"
     },
