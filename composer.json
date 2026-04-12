@@ -1,5 +1,5 @@
 {
-    "name": "ezsystems/ezplatform-design-engine",
+    "name": "se7enxweb/ezplatform-design-engine",
     "description": "Design fallback mechanism for eZ Platform",
     "license": "MIT",
     "type": "ezplatform-bundle",
@@ -37,6 +37,9 @@
     },
     "scripts": {
         "fix-cs": "@php ./vendor/bin/php-cs-fixer fix -v --show-progress=estimating"
+    },
+    "replace": {
+        "ezsystems/ezplatform-design-engine": "self.version"
     },
     "extra": {
         "branch-alias": {
