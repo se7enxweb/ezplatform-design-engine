@@ -39,7 +39,7 @@
         "fix-cs": "@php ./vendor/bin/php-cs-fixer fix -v --show-progress=estimating"
     },
     "replace": {
-        "ezsystems/ezplatform-design-engine": "self.version"
+        "ezsystems/ezplatform-design-engine": "*"
     },
     "extra": {
         "branch-alias": {
